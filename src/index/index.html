@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <%= require('raw-loader!./meta.html') %>
+    <%= require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') %>
+    <!-- <script></script> -->
+</head>
+<body>
+    <div id="root"></div>
+</body> 
+</html>
